@@ -2,7 +2,7 @@ gspread==5.4.0
 gspread_dataframe==3.3.0
 pandas==1.4.2
 plotly==5.8.2
-protobuf==4.21.1
+protobuf==3.20.0
 pygsheets==2.0.5
 python_dateutil==2.8.2
 streamlit==1.10.0
