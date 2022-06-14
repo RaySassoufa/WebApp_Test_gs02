@@ -33,7 +33,6 @@ del df_rw_ww_t["Total Collectable"]
 
 st.subheader('Official Performance Calculation')
 st.dataframe(df_rw_ww_t, width=2000)
-# st.line_chart(df_rw_ww_t["Performance"])
 
 #######################################################################
 ######### KPI RW/WW CHART #############################################
