@@ -69,7 +69,7 @@ st.markdown("drop_table")
 
 fig_02 = st.empty()
 
-@st.cache(ttl=600)
+# @st.cache(ttl=600)
 def vue_drop_table():
     df_drop_table = get_as_dataframe(ws)
     fig_02.dataframe(df_drop_table.astype(str))
